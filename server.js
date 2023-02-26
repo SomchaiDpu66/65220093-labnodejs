@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 9000;
+const port = process.env.PORT || 3100;
 const cors = require("cors");
 
 const fullname = "65230093 ,Somchai Karapitak";
@@ -106,5 +106,5 @@ app.get("/products/:id", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Application is running on port 9000");
+  console.log("Application is running on port 3100");
 });
